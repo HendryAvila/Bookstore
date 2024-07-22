@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Library</title>
+</head>
+<body>
+    <header class="header">
+            <h2 class="header-title">Library</h2>
+            <button class="header-btn">Log in</button>
+    </header>
+    <main class="main">
+        <button class="open-dialog">New book</button>
+        <dialog id="dialog">
+            <form  class="form">
+                <div class="form-container">
+                    <label for="title">Title</label><br>
+                    <input type="text" id="title">
+                </div>
+                <div class="form-container">
+                    <label for="author">Author</label><br>
+                    <input type="text" id="author">
+                </div>
+                <div class="form-container">
+                    <label for="pages">Pages read</label><br>
+                    <input type="number" id="pages">
+                </div>
+                <div class="form-container">
+                    <label for="read">Have you read it?</label>
+                    <input type="checkbox" id="read">
+                </div>
+                <div class="btn-form-container">
+                    <button id="add-book">Add book</button>
+                    <button id="close-dialog">Cancel</button>
+                </div>
+            </form>
+        </dialog>
+        <br>
+        <br>
+        <div class="booklist">
+           
+            </div>
+
+        </div>
+    </main>
+    <footer class="footer">
+        <h4>HendryCode</h4>
+    </footer>
+
+
+    <script src="scrip.js"></script>
+</body>
+</html>
